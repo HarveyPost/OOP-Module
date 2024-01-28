@@ -16,5 +16,6 @@ class Weight {
         double ounces = fractionalPounds * ouncesPerPound;
 
         System.out.printf("Equivalent imperial weight is %d lb and %.1f oz.\n", kilograms, wholePounds, ounces);
+        scanner.close();
     }
 }
