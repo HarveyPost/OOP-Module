@@ -46,17 +46,17 @@ public class PlotApplication extends Application {
       reader.readLine();
       String line;
       double distance = 0;
-      double prevLongitude = 0;
-      double prevLatitude = 0;
       while ((line = reader.readLine()) != null) {
         String[] fields = line.split(",");
         double longitude = Double.parseDouble(fields[1]);
         double latitude = Double.parseDouble(fields[2]);
         double elevation = Double.parseDouble(fields[3]);
-        distance += 500;
+
+        // Distance logic goes here:
+        // Placeholder code below just adds longitude and latitude
+        distance = longitude + latitude;
+
         series.getData().add(new XYChart.Data<>(distance, elevation));
-        prevLongitude = longitude;
-        prevLatitude = latitude;
       }
     } catch (IOException e) {
       System.out.println("Error reading file: " + e.getMessage());
