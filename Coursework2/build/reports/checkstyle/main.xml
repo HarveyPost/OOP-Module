@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/CardException.java">
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/BaccaratHand.java">
+<error line="41" column="31" severity="warning" message="Don&apos;t use trailing comments." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="44" column="36" severity="warning" message="Don&apos;t use trailing comments." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/Baccarat.java">
+<error line="21" severity="warning" message="Line is longer than 100 characters (found 106)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" severity="warning" message="Line is longer than 100 characters (found 106)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/CardCollection.java">
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/Card.java">
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/BaccaratCard.java">
+<error line="24" column="9" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="25" column="9" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="42" column="50" severity="warning" message="Don&apos;t use trailing comments." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+</file>
+<file name="/workspaces/OOP-Module/Coursework2/src/main/java/Shoe.java">
+</file>
+</checkstyle>
